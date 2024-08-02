@@ -1,0 +1,11 @@
+.hero-text{
+    font-size: 3rem;
+    font-family: 'Montserrat' sans-serif;
+}
+.hero{
+    display: flex;
+}
+.heroImg{
+    width: 50rem;
+    height: 24rem;
+}
