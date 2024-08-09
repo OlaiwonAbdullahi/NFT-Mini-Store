@@ -4,10 +4,11 @@ function Navbar (){
 
   return(
     <div>
-      <nav className=" bg-slate-400 h-12 md:gap-32 md:px-80 px-5 gap-5 flex">
+      
         <div className="brandName mt-2 text-slate-800 text-2xl flex">
          NFTStore 
         </div>
+        <nav className=" bg-slate-400 h-12 md:gap-32 md:px-80 px-5 gap-5 flex">
         <div className="Menu flex right-0 md:mt-2 mt-3 md:gap-5 gap-4 md:text-xl text-sm ml-4">
             <li className='list-none p-0 m-0'><a href="#">Home</a></li>
             <li className='list-none p-0 m-0'><a href="#">About</a></li>
