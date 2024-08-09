@@ -4,19 +4,19 @@ function Navbar (){
 
   return(
     <div>
-      <nav className=" bg-slate-400 h-12 gap-48">
-        <div className="brandName mt-2">
-          NFT Store
+      <nav className=" bg-slate-400 h-12 md:gap-32 md:px-80 px-5 gap-5 flex">
+        <div className="brandName mt-2 text-slate-800 text-2xl flex">
+         NFTStore 
         </div>
-        <div className="Menu flex right-0 mt-2 gap-3 ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Contact</a></li>
+        <div className="Menu flex right-0 md:mt-2 mt-3 md:gap-5 gap-4 md:text-xl text-sm ml-4">
+            <li className='list-none p-0 m-0'><a href="#">Home</a></li>
+            <li className='list-none p-0 m-0'><a href="#">About</a></li>
+            <li className='list-none p-0 m-0'><a href="#">Shop</a></li>
+            <li className='list-none p-0 m-0'><a href="#">Contact</a></li>
         </div>
 
-        <div className='mt-2'>
-          <img src={Cart} className='text-slate-900'></img>
+        <div className='md:mt-2 mt-3 ml-8'>
+          <img src={Cart} className='text-slate-900 text-xl'></img>
         </div>
       </nav>
     </div>

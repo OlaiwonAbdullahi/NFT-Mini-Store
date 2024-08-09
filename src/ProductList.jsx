@@ -4,7 +4,7 @@ function ProductList(props){
 
     return(
         <>
-        <div className="card">
+        <div className="card px-auto gap-6">
             <img src={props.Img} alt="Profile Picture" className='card-image'></img>
             <div className='flex gap-20'>
             <h2 className='card-title text-slate-800 text-lg'>{props.name}</h2>
